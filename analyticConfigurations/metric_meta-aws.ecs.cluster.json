@@ -1,0 +1,23 @@
+{
+  "analyticConfiguration" : {
+    "tenantId" : null,
+    "type" : "METRIC_META",
+    "id" : null,
+    "packageId" : null,
+    "name" : "AWS ECS Cluster",
+    "scope" : {
+      "elementName" : null,
+      "elementType" : "ECS Cluster",
+      "elementTags" : null
+    },
+    "metrics" : [ {
+      "match" : "^aws.ecs.*",
+      "properties" : {
+        "tags" : {
+          "unit" : "percent"
+        },
+        "validMax" : 100
+      }
+    } ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "analyticConfiguration" : {
+    "tenantId" : null,
+    "type" : "METRIC_META",
+    "id" : null,
+    "packageId" : null,
+    "name" : "AWS ECS Service",
+    "scope" : {
+      "elementName" : null,
+      "elementType" : "ECS Service",
+      "elementTags" : null
+    },
+    "metrics" : [ {
+      "match" : "^aws.ecs.*",
+      "properties" : {
+        "tags" : {
+          "unit" : "percent"
+        },
+        "validMax" : 100
+      }
+    } ]
+  }
+}

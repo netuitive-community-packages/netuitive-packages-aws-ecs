@@ -1,0 +1,52 @@
+{
+  "id" : "netuitive.packages.aws.ecs",
+  "version" : "1.0.0",
+  "manifest" : {
+    "name" : "Netuitive Packages AWS ECS",
+    "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of AWS EC2 Container Services (ECS) resources.",
+    "author" : {
+      "name" : "Netuitive Research",
+      "email" : "research@netuitive.com"
+    },
+    "distro" : {
+      "logo" : "http://assets.app.netuitive.com/pkg/logo/netuitive/banner_logo.png",
+      "download" : "https://github.com/netuitive-community-packages/netuitive-packages-aws-elasticache/archive/master.zip"
+    },
+    "compatibility" : [ "AWS" ],
+    "tags" : [ ],
+    "checksum" : null
+  },
+  "policies" : [ ],
+  "analyticConfigurations" : [ {
+    "data" : {
+      "file" : "analyticConfigurations/metric_meta-aws.ecs.cluster.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "analyticConfigurations/metric_meta-aws.ecs.service.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ],
+  "dashboards" : [ {
+    "data" : {
+      "file" : "dashboards/aws.ecs.summary.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "dashboards/aws.ecs.cluster.element.detail.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "dashboards/aws.ecs.service.element.detail.page.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ]
+}
