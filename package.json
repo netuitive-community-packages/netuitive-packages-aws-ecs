@@ -1,6 +1,6 @@
 {
   "id" : "netuitive.packages.aws.ecs",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "manifest" : {
     "name" : "Netuitive Packages AWS ECS",
     "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of AWS EC2 Container Services (ECS) resources.",
@@ -12,7 +12,7 @@
       "logo" : "http://assets.app.netuitive.com/pkg/logo/netuitive/banner_logo.png",
       "download" : "https://github.com/netuitive-community-packages/netuitive-packages-aws-elasticache/archive/master.zip"
     },
-    "compatibility" : [ "AWS" ],
+    "compatibility" : [ "AWS:ECS" ],
     "tags" : [ ],
     "checksum" : null
   },
