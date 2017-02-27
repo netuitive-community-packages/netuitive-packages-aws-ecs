@@ -1,8 +1,12 @@
-#netuitive.packages.aws.ecs 1.0.1
+#netuitive.packages.aws.ecs 1.2.0
 
 For detailed information on this package, please refer to the [online documentation](https://help.netuitive.com/Content/Integrations/aws.htm).
 
 ##Release History
+
+###Version 1.2.0
+
+* Updated dashboard layouts for gridstack.
 
 ###Version 1.0.1
 
