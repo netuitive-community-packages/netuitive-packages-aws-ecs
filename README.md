@@ -6,6 +6,8 @@ For detailed information on this package, please refer to the [online documentat
 
 ### Version next
 
+## Version 1.2.1
+
 * Updated metric meta to be more selective in applying percents
 
 ### Version 1.2.0
