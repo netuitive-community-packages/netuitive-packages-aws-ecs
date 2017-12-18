@@ -4,6 +4,10 @@ For detailed information on this package, please refer to the [online documentat
 
 ## Release History
 
+### Version next
+
+* Updated metric meta to be more selective in applying percents
+
 ### Version 1.2.0
 
 * Updating element details dashboard layouts.
