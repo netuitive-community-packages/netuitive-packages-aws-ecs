@@ -12,7 +12,7 @@
       "metricMatches" : null
     },
     "metrics" : [ {
-      "match" : "^aws.ecs.*",
+      "match" : "^aws\\.ecs\\.(cpu.*|memory.*)",
       "properties" : {
         "tags" : {
           "unit" : "percent"
