@@ -1,24 +1,28 @@
 {
-  "analyticConfiguration" : {
-    "tenantId" : null,
-    "type" : "METRIC_META",
-    "id" : null,
-    "packageId" : null,
-    "name" : "AWS ECS Service",
-    "scope" : {
-      "elementName" : null,
-      "elementType" : "ECS Service",
-      "elementTags" : null,
-      "metricMatches" : null
-    },
-    "metrics" : [ {
-      "match": "^aws\\.ecs\\.(cpu.*|memory.*)",
-      "properties" : {
-        "tags" : {
-          "unit" : "percent"
-        },
-        "validMax" : 100
+  "analyticConfiguration": {
+    "metrics": [
+      {
+        "match": "^aws\\.ecs\\.(cpu.*|memory.*)",
+        "properties": {
+          "tags": {
+            "unit": "percent"
+          },
+          "validMax": 100
+        }
+      },
+      {
+        "match": "^aws\\.ecs\\.(cpu|memory)utilization",
+        "properties": {
+          "tags": {
+            "utilization": true
+          }
+        }
       }
-    } ]
+    ],
+    "name": "AWS ECS Service",
+    "scope": {
+      "elementType": "ECS Service"
+    },
+    "type": "METRIC_META"
   }
 }
