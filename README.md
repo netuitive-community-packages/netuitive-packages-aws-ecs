@@ -7,6 +7,7 @@ For detailed information on this package, please refer to the [online documentat
 ### Version next
 
 * Adjusted build to use metricly-cli for validation
+* Addresses #10 - Marked aws.ecs.cpuutilization and aws.ecs.cpuutilization as utilization metrics.
 
 ## Version 1.2.1
 
