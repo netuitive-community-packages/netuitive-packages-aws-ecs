@@ -9,6 +9,13 @@
           },
           "validMax": 100
         }
+      },
+      {
+        "match": "^aws\\.ecs\\.(cpu|memory)utilization",
+        "properties": {
+          "tags": {
+            "utilization": true
+          }        }
       }
     ],
     "name": "AWS ECS Service",
