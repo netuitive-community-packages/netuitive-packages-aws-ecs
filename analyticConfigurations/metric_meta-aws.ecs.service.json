@@ -15,7 +15,8 @@
         "properties": {
           "tags": {
             "utilization": true
-          }        }
+          }
+        }
       }
     ],
     "name": "AWS ECS Service",
