@@ -2,12 +2,20 @@
   "analyticConfiguration": {
     "metrics": [
       {
-        "match": "^aws\\.ecs\\.(cpu.*|memory.*)",
+        "match": "^aws\\.ecs\\.memory.*",
         "properties": {
           "tags": {
             "unit": "percent"
           },
           "validMax": 100
+        }
+      },
+      {
+        "match": "^aws\\.ecs\\.cpu.*",
+        "properties": {
+          "tags": {
+            "unit": "percent"
+          }
         }
       },
       {
