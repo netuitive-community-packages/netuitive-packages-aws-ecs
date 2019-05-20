@@ -4,7 +4,7 @@
 
 ### Version 1.3.1
 
-* aws.ecs.cpuutilization metrics should not have a validMax for Service resources
+* aws.ecs.(memory|cpu)utilization metrics should not have a validMax or utilization tag for Service resources
 
 ### Version 1.3.0
 
