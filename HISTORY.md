@@ -1,5 +1,9 @@
 ## Release History
 
+### Version Next
+
+* aws.ecs.cpuutilization metrics should not have a validMax for Service resources
+
 ### Version 1.3.0
 
 * Adjusted build to use metricly-cli for validation
