@@ -2,6 +2,8 @@
 
 ### Version Next
 
+### Version 1.3.1
+
 * aws.ecs.cpuutilization metrics should not have a validMax for Service resources
 
 ### Version 1.3.0
